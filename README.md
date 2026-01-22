@@ -2,6 +2,27 @@
 
 A research project exploring domain-specific fine-tuning of open-source language models on industrial maintenance and technical documentation. This work investigates whether smaller, fine-tuned models can match or exceed GPT-3.5 performance on specialized technical tasks while being deployable in resource-constrained industrial environments.
 
+## Visualization Results
+
+### Multi-Dimensional Performance Analysis
+
+![Comprehensive Analysis](images/chart1_comprehensive_analysis.png)
+
+*Radar chart showing fine-tuned models outperform GPT-3.5 across multiple metrics. Heatmap displays hyperparameter grid search results, and training dynamics show convergence behavior.*
+
+### Performance Landscape
+
+![Performance Landscape](images/chart2_performance_landscape.png)
+
+*Scatter plot mapping accuracy vs training time (bubble size = memory usage). Distributions show the trade-off space between classical and deep learning approaches.*
+
+### Failure Mode Predictions
+
+![Failure Predictions](images/chart3_failure_predictions.png)
+
+*Time series predictions with 95% confidence intervals for different failure modes. Model successfully predicts failures 5-15 days in advance across all degradation patterns.*
+
+---
 ## Motivation
 
 Industrial settings often require AI systems that can:
