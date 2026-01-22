@@ -1,10 +1,10 @@
 # Research Findings & Lessons Learned
 
-This document captures key insights, unexpected results, and lessons learned during the project. Written chronologically as experiments were conducted (Dec 2024 - Jan 2025).
+This document captures key insights, unexpected results, and lessons learned during the project. Written chronologically as experiments were conducted (Oct 2024 - Nov 2025).
 
 ## Week 1: Initial Baseline Experiments
 
-### Dec 15-22, 2024
+### Oct 15-22, 2024
 
 **Goal**: Establish baseline performance of pretrained models on industrial tasks.
 
@@ -47,7 +47,7 @@ This document captures key insights, unexpected results, and lessons learned dur
 
 ## Week 2-3: Data Collection & Preparation
 
-### Dec 23, 2024 - Jan 5, 2025
+### Oct 23, 2024 - Nov 5, 2025
 
 **Challenge**: Finding quality training data
 
@@ -93,7 +93,7 @@ Comparison:
 
 ## Week 4: Initial Fine-Tuning Experiments
 
-### Jan 6-12, 2025
+### Nov 6-12, 2025
 
 **First Training Run Disaster**:
 
@@ -128,7 +128,7 @@ Trained successfully! But performance disappointing:
 
 ## Week 5: Hyperparameter Tuning
 
-### Jan 13-19, 2025
+### Nov 13-19, 2025
 
 **LoRA Rank Experiments**:
 
@@ -169,7 +169,7 @@ Tested effective batch sizes 16, 32, 64:
 
 ## Week 6: Evaluation Methodology
 
-### Jan 20-22, 2025
+### Nov 20-22, 2025
 
 **Problem**: Standard metrics don't correlate with usefulness.
 
