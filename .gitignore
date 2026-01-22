@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model files (too large for git)
+*.bin
+*.safetensors
+*.gguf
+*.pth
+*.pt
+results/*/pytorch_model.bin
+results/*/model.safetensors
+
+# Data
+data/raw/
+data/processed/*.json
+!data/processed/sample_*.json
+
+# Logs
+*.log
+logs/
+runs/
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training outputs
+checkpoints/
+outputs/
+
+# Secrets
+.env
+*.key
+secrets.yaml
